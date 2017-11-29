@@ -1,7 +1,15 @@
 .MYCLASS {
-    background-image:images/image.jpg;
+    background-image:url("https://image.shutterstock.com/z/stock-photo-bitcoin-coin-with-money-on-a-stock-market-graph-551039662.jpg");
 }
 
-h1 {
+h1, h4, p {
    text-align: left;
+}
+
+.bodycolour{
+    background-color: #ffffff;
+}
+
+.headercolour{
+    background: #e9ecef;
 }
