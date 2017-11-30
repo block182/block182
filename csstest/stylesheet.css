@@ -13,3 +13,47 @@ h1, h4, p {
 .headercolour{
     background: #e9ecef;
 }
+
+.smalltiletext{
+    color: #1d2124;
+}
+
+.imagewithtext{
+    position: relative;
+    width: 100%;
+}
+imagebox{
+    position: relative;
+   width: 100%
+}
+
+.largetiletext {
+   position: absolute;
+   top: 160px;
+   left: 0;
+   width: 100%;
+   color: #343a40;
+   transform: translate (-50%, -50%);
+}
+.tileparagraph{
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+   color: #343a40;
+   transform: translate (-50%, -50%);
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left:36%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+
+}
+
+.textcolour{
+    color: black;
+}
