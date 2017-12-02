@@ -1,6 +1,9 @@
 .MYCLASS {
-    background-image: url("");
+    background-image: url("../images/bitcoin.jpg");
+    height: 100%;
+    width: 100%;
 }
+
 
 h1, h4, p {
    text-align: left;
