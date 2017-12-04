@@ -10,7 +10,7 @@ h1, h4, p {
 }
 
 .bodycolour{
-    background-color: #ffffff;
+    background-color: #e9ecef;
 }
 
 .headercolour{
@@ -49,16 +49,16 @@ imagebox{
 
 .centered {
     position: absolute;
-    top: 60%;
-    left:36%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 30%;
+    transform: translate( -50%, -50% );
+    text-align: left;
     color: white;
-
-
-}
+    font-weight: bold;
 
 .textcolour{
     color: black;
 
 }
+
 

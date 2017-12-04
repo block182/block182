@@ -490,6 +490,7 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -3999,7 +4000,7 @@ tbody.collapse.show {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: #000000;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
@@ -5721,7 +5722,11 @@ a.bg-light:focus, a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color:#b7bab3 !important;
+}
+
+.bg-dark1 {
+  background-color: #e9ece5 !important;
 }
 
 a.bg-dark:focus, a.bg-dark:hover {
