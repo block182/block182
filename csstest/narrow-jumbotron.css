@@ -42,19 +42,34 @@ body {
   margin: 2rem 0;
 }
 
-/* Main marketing message and image */
+/* Main marketing message and image for main page */
 .jumbotron {
   text-align: center;
   border-bottom: .05rem solid #e5e5e5;
-  background-image: url("../images/bitcoin.jpg");
+  background-image: url("../images/Bitcoin/bitcoin.jpg");
   background-size: 100% 100%;
 }
-.jumbotronone {
+.jumbotronbitcoin {
   text-align: center;
   border-bottom: .05rem solid #e5e5e5;
-  background-image: url("../images/block182 logo pycharm.png");
+  background-image: url("../images/Bitcoin/bitcoin.jpg");
   background-size: 100% 100%;
 
+.jumbotronether {
+    text-align: center;
+    border-bottom: .05rem solid #e5e5e5;
+    background-image: url("../images/block182 logo pycharm.png");
+    background-size: 100% 100%;
+}
+
+.jumbotronaltcoins {
+    text-align: center;
+    border-bottom: .05rem solid #e5e5e5;
+    background-image: url("../images/block182 logo pycharm.png");
+    background-size: 100% 100%;
+}
+
+/*jumbotron images for articles*/
 
 
 /* Supporting marketing content */
@@ -85,8 +100,3 @@ body {
     border-bottom: 0;
   }
 
-.display-5 {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
