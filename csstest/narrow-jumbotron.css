@@ -2,6 +2,7 @@
 body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  font-family: Lato,monospace;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -58,16 +59,23 @@ body {
 .jumbotronether {
     text-align: center;
     border-bottom: .05rem solid #e5e5e5;
-    background-image: url("../images/block182 logo pycharm.png");
+    background-image: url("../images/AboutUs/block182 logo pycharm.png");
     background-size: 100% 100%;
 }
 
 .jumbotronaltcoins {
     text-align: center;
     border-bottom: .05rem solid #e5e5e5;
-    background-image: url("../images/block182 logo pycharm.png");
+    background-image: url("../images/AboutUs/block182 logo pycharm.png");
     background-size: 100% 100%;
 }
+.jumbotronaboutus {
+    text-align: center;
+    border-bottom: .05rem solid #e5e5e5;
+    background-image: url("../images/Block182.png");
+    background-size: 100% 100%;
+}
+
 
 /*jumbotron images for articles*/
 

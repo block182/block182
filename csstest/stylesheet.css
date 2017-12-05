@@ -1,8 +1,4 @@
-.MYCLASS {
-    background-image: url("../images/Bitcoin/bitcoin.jpg");
-    height: 100%;
-    width: 100%;
-}
+
 
 
 h1, h4, p {
@@ -47,18 +43,78 @@ imagebox{
    transform: translate (-50%, -50%);
 }
 
-.centered {
+/*
+Class for large tile on article pages
+ */
+.articlecaptionarticle {
     position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate( -50%, -50% );
+    top: 20%;
+    left:50%;
+    transform: translate(-50%, -50%);
     text-align: left;
     color: white;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 15;
+}
+/*
+Class for large tile on main pages
+ */
+.articlecaptionmain {
+    position: absolute;
+    top: 50%;
+    left:36%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    font-size: 15;
 
-.textcolour{
+}
+/*
+Classes for small tiles on main pages
+ */
+.smalltilecaption1 {
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-align: left;
     color: black;
+    font-weight: normal;
+    font-size: 15;
+}
 
+.smalltilecaption2 {
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: black;
+    font-weight: normal;
+    font-size: 15;
+}
+
+.smalltilecaption3 {
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: black;
+    font-weight: normal;
+    font-size: 15;
+}
+
+.smalltilecaption4 {
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: black;
+    font-weight: normal;
+    font-size: 15;
 }
 
 
