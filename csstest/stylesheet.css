@@ -48,13 +48,13 @@ Class for large tile on article pages
  */
 .articlecaptionarticle {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-    text-align: left;
+    text-align: center;
     color: white;
     font-weight: normal;
-    font-size: 15;
+    font-size: 30pt;
 }
 /*
 Class for large tile on main pages
