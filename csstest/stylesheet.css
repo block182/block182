@@ -117,7 +117,39 @@ Classes for small tiles on main pages
     font-size: 15;
 }
 
+/*
+Trending Articles
+ */
 
+.trendingcaption1 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    font-size: 15pt;
+}
 
-
+.trendingcaption2 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    font-size: 14pt;
+}
+.trendingcaption3 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    font-size: 15pt;
+}
 
