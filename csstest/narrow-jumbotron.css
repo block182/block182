@@ -50,34 +50,10 @@ body {
 
   background-size: 100% 100%;
 }
-.jumbotronbitcoin {
-  text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
-  background-image: url("../images/Bitcoin/bitcoin.jpg");
-  background-size: 100% 100%;
-
-.jumbotronether {
-    text-align: center;
-    border-bottom: .05rem solid #e5e5e5;
-    background-image: url("../images/AboutUs/block182 logo pycharm.png");
-    background-size: 100% 100%;
-}
-
-.jumbotronaltcoins {
-    text-align: center;
-    border-bottom: .05rem solid #e5e5e5;
-    background-image: url("../images/AboutUs/block182 logo pycharm.png");
-    background-size: 100% 100%;
-}
-.jumbotronaboutus {
-    text-align: center;
-    border-bottom: .05rem solid #e5e5e5;
-    background-image: url("../images/Block182.png");
-    background-size: 100% 100%;
-}
 
 
-/*jumbotron images for articles*/
+
+
 
 
 /* Supporting marketing content */
