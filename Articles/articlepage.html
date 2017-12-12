@@ -31,6 +31,32 @@
 
   <body>
 
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
     <div class="container">
 
 
@@ -70,6 +96,7 @@ function Gsitesearch(curobj){ curobj.q.value="site:"+domainroot+" "+curobj.qfron
               <div class="input-group"> <input name="q" type="hidden"/>
 <input class="form-control" name="qfront" type="search" required placeholder="Google Search" maxlength="50"/>
 <button class="btn btn-outline-success my-2 my-sm-0"type="submit">Search</button>
+
         </form>
 </div>
 </form>
@@ -107,11 +134,11 @@ function Gsitesearch(curobj){ curobj.q.value="site:"+domainroot+" "+curobj.qfron
                </p>
 
            </div>
-           <div id="share-buttons">
-      <a href="http://localhost:63342/block182/Articles/articlepage.html?_ijt=sp2l06fhlsd1sm7cmnn2lhb9v2" target="_blank">
-        <img src="https://howmadareyou.com/wp-content/themes/MAD/images/share-facebook.png" width="120" height="40" alt="Facebook" />
-      </div>
-       </div>
+           <div class="fb-share-button" data-href="http://localhost:63342/block182/Articles/articlepage.html?_ijt=grkgpcfsi6fl5pkvk26pdivbcj" data-layout="button" data-size="large" data-mobile-iframe="true">
+               <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A63342%2Fblock182%2FArticles%2Farticlepage.html%3F_ijt%3Dgrkgpcfsi6fl5pkvk26pdivbcj&amp;src=sdkpreparse">Share</a>
+           </div>
+
+               <a class="twitter-share-button" href="http://localhost:63342/block182/Articles/articlepage.html?_ijt=grkgpcfsi6fl5pkvk26pdivbcj" data-size="large">Tweet</a>
        </div>
 
     </a>
