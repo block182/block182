@@ -33,7 +33,7 @@
 
      <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
             <a class="navbar-brand" href=""><img src="../images/AboutUs/block182%20logo%20pycharm.png" width="40" height="40" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation" action="http://www.google.com/search" method="get"role="search" onSubmit="Gsitesearch(this)">>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -55,10 +55,20 @@
             <a class="nav-link active" href="http://localhost:63342/block182/Mainpages/aboutus.html?_ijt=ub8geogkoo29itsbcrcfvmelf2"> About Us </a>
           </li>
         </ul>
-          <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+            <script>
+//GOOGLE SEARCH
+//Enter domain of site to search.
+var domainroot="google.com"
+function Gsitesearch(curobj){ curobj.q.value="site:"+domainroot+" "+curobj.qfront.value }
+</script>
+          <form class="form-inline my-2 my-lg-0" action="http://www.google.com/search" method="get" role="search" onSubmit="Gsitesearch(this)">
+              <div class="input-group"> <input name="q" type="hidden"/>
+<input class="form-control" name="qfront" type="search" required placeholder="Google Search" maxlength="50"/>
+<span class="input-group-btn"> <button type="submit" class="search-button btn btn-primary"> <span class="glyphicon glyphicon-search"></span>
+</button>
+</span>
+</div>
+</form>
       </div>
      </nav>
     </header>

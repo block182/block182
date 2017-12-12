@@ -31,12 +31,7 @@
 <div class="container">
 <!-- add header -->
 <div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
+
 <a class="navbar-brand" href="#">XYZ Company</a></div>
 <!-- add menu items-->
 <div class="collapse navbar-collapse" id="navbar1">
@@ -51,8 +46,8 @@
 var domainroot="google.com"
 function Gsitesearch(curobj){ curobj.q.value="site:"+domainroot+" "+curobj.qfront.value }
 </script>
-<form class="search navbar-form navbar-right" action="http://www.google.com/search" method="get"role="search" onSubmit="Gsitesearch(this)">
-<div class="input-group"> <input name="q" type="hidden" />
+<form class="search navbar-form navbar-right" action="http://www.google.com/search" method="get" role="search" onSubmit="Gsitesearch(this)">
+<div class="input-group"> <input name="q" type="hidden"/>
 <input class="form-control" name="qfront" type="search" required class="searchField" placeholder="Google Site Search" maxlength="50"/>
 <span class="input-group-btn"> <button type="submit" class="search-button btn btn-primary"> <span class="glyphicon glyphicon-search"></span> </button> </span>
 </div>
